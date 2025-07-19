@@ -1,12 +1,12 @@
-🩺 Insurance Cost Prediction - EDA Project
+Insurance Cost Prediction - EDA Project
 
-## 📌 Project Overview
+##  Project Overview
 
 This project aims to perform **Exploratory Data Analysis (EDA)** on an insurance dataset to uncover insights that influence medical insurance charges. The analysis is designed to help **ABC Insurance** make informed decisions regarding premium structures based on various factors such as age, gender, BMI, number of children, smoking habits, and region.
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 ABC Insurance wants to understand how different features affect healthcare insurance costs. Specifically, the goal is to:
 
@@ -16,13 +16,13 @@ ABC Insurance wants to understand how different features affect healthcare insur
 
 ---
 
-## 🎯 Objective
+##Objective
 
 To analyze the dataset and derive insights that contribute to building a model to **predict medical insurance costs** based on customer attributes.
 
 ---
 
-## 🩻 Dataset Information
+##  Dataset Information
 
 - **Source**: `insurance.csv`
 - **Domain**: Healthcare
@@ -39,7 +39,7 @@ To analyze the dataset and derive insights that contribute to building a model t
 
 ---
 
-## 🛠️ Tools and Libraries Used
+##  Tools and Libraries Used
 
 - `Python`
 - `Pandas` - data manipulation
@@ -48,7 +48,7 @@ To analyze the dataset and derive insights that contribute to building a model t
 
 ---
 
-## 🧪 Steps Performed
+##  Steps Performed
 
 1. **Data Import and Setup**
    ```python
@@ -77,7 +77,7 @@ To analyze the dataset and derive insights that contribute to building a model t
 
 ---
 
-## 📈 Key Insights
+##  Key Insights
 
 - **Smokers pay significantly higher premiums** than non-smokers.
 - **Age and BMI are positively correlated** with insurance charges.
@@ -86,7 +86,7 @@ To analyze the dataset and derive insights that contribute to building a model t
 
 ---
 
-## 📊 Sample Visualizations
+##  Sample Visualizations
 
 - `sns.barplot(x='smoker', y='charges')`
 - `sns.scatterplot(x='bmi', y='charges')`
@@ -96,7 +96,7 @@ To analyze the dataset and derive insights that contribute to building a model t
 
 ---
 
-## ✅ Future Scope
+##  Future Scope
 
 - Build and evaluate machine learning models to predict `charges`.
 - Apply feature scaling and encode categorical variables.
